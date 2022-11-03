@@ -3,23 +3,21 @@ import javax.swing.JTextField;
 
 public class MainClass {
    public static void main(String[] args) {
-      int hourlyWage;  
       JFrame topFrame = null;        // Application window
       JTextField outputField = null; // Displays output salary
 
-      hourlyWage = 20;
+   
 
       // Create text field
       outputField = new JTextField();
       // Display program output using the text field
-      outputField.setText("An hourly wage of " + hourlyWage + "/hr" +
-                          " yields $" + (hourlyWage * 40 * 50) + "/yr.");
+      outputField.setText("Hello");
 
       // Prevent user from editing output text
       outputField.setEditable(false);
 
       // Create window 
-      topFrame = new JFrame("Salary");
+      topFrame = new JFrame("MainGUI");
 
       // Add text field to window
       topFrame.add(outputField);
