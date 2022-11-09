@@ -11,7 +11,7 @@ public class MainClass {
       // Create text field
       outputField = new JTextField();
       // Display program output using the text field
-      outputField.setText("Hello");
+      outputField.setText("Hello Dr. Saldana :)");
 
       // Prevent user from editing output text
       outputField.setEditable(false);

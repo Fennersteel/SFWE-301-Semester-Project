@@ -72,9 +72,9 @@ public class FXMLDocumentController implements Initializable {
     }
    
     
-    @Override
+    
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }       
 }
 
