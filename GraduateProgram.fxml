@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <Button fx:id="HomeBtn" layoutX="-20.0" layoutY="836.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="Home">
+         <font>
+            <Font size="35.0" />
+         </font></Button>
+      <Label layoutX="664.0" layoutY="36.0" prefHeight="93.0" prefWidth="623.0" text="Graduate Program Information">
+         <font>
+            <Font size="64.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
