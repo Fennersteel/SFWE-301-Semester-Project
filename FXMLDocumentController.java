@@ -31,37 +31,37 @@ public class FXMLDocumentController implements Initializable {
             //stage.setFullScreen(true);
             stage = (Stage) ClubBtn.getScene().getWindow();
             stage.setFullScreen(true);
-            root = FXMLLoader.load(getClass().getResource("Clubs.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml/Clubs.fxml"));
         }
         else if (event.getSource() == AcademicsBtn){
             stage = (Stage) AcademicsBtn.getScene().getWindow();
             stage.setFullScreen(true);
-            root = FXMLLoader.load(getClass().getResource("Academics.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml/Academics.fxml"));
         }
         else if (event.getSource() == CareersBtn){
             stage = (Stage) CareersBtn.getScene().getWindow();
             stage.setFullScreen(true);
-            root = FXMLLoader.load(getClass().getResource("Careers.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml/Careers.fxml"));
         }
         else if (event.getSource() == WebsiteBtn){
             stage = (Stage) WebsiteBtn.getScene().getWindow();
             stage.setFullScreen(true);
-            root = FXMLLoader.load(getClass().getResource("Website.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml/Website.fxml"));
         }
         else if (event.getSource() == UnderGradBtn){
             stage = (Stage) UnderGradBtn.getScene().getWindow();
             stage.setFullScreen(true);
-            root = FXMLLoader.load(getClass().getResource("UnderGrad.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml/UnderGrad.fxml"));
         }
         else if (event.getSource() == GraduateBtn){
             stage = (Stage) GraduateBtn.getScene().getWindow();
             stage.setFullScreen(true);
-            root = FXMLLoader.load(getClass().getResource("GraduateProgram.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml/GraduateProgram.fxml"));
         }
         else {
             stage = (Stage) HomeBtn.getScene().getWindow();
             stage.setFullScreen(true);
-            root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+            root = FXMLLoader.load(getClass().getResource(".fxml/FXMLDocument.fxml"));
         }
         Scene scene = new Scene(root);
         stage.setFullScreen(true);
