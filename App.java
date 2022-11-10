@@ -6,14 +6,14 @@ import javafx.scene.Scene;
 import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
  
- public class App extends Application {
+public class App extends Application {
      
      @Override
      public void start(Stage stage) throws Exception {
-         Parent root = FXMLLoader.load(getClass().getResource(".fxml/FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource(".fxml/FXMLDocument.fxml"));
          
-         Scene scene = new Scene(root);
-         //KeyCombination z = ;
+        Scene scene = new Scene(root);
+        //KeyCombination z = ;
         stage.setFullScreen(true);
         stage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
         stage.setFullScreenExitHint(STYLESHEET_CASPIAN);
@@ -22,6 +22,6 @@ import javafx.stage.Stage;
      }
  
      public static void main(String[] args) {
-         launch(args);
+        launch(args);
      }    
  }
