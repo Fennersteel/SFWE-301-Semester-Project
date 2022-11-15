@@ -18,7 +18,7 @@ public class FXMLDocumentController implements Initializable {
     //lbl2,lbl3;
     
     @FXML
-    private Button ClubBtn,CareersBtn,AcademicsBtn,HomeBtn,WebsiteBtn,UnderGradBtn,GraduateBtn;
+    private Button ClubBtn,CareersBtn,AcademicsBtn,HomeBtn,WebsiteBtn,UnderGradBtn,GraduateBtn,ieeeBtn;
     //,btn3,btn4;
     
     @FXML
@@ -70,6 +70,7 @@ public class FXMLDocumentController implements Initializable {
         stage.show();
         stage.setFullScreen(true);
     }
+   
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
