@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="1309.0" fitWidth="1946.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../src/Pictures/HomePage.jpg" />
+            <Image url="/Pictures/HomePage.jpg" />
          </image>
       </ImageView>
       <Button fx:id="ClubBtn" layoutX="218.0" layoutY="265.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Clubs" textFill="WHITE">
