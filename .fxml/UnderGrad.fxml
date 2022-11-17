@@ -41,7 +41,7 @@
       </TextField>
       <ImageView fitHeight="356.0" fitWidth="345.0" layoutX="774.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive%20-%20University%20of%20Arizona/Pictures/Java%20Project/Advisor.PNG" />
+            <Image url="Pictures/Advisor.PNG" />
          </image>
       </ImageView>
       <TextArea layoutX="772.0" layoutY="606.0" prefHeight="135.0" prefWidth="344.0" text="Juliana Lincoln&#10;julianalincoln@email.arizona.edu&#10;(520)621-6725&#10;ENGR 225" wrapText="true">
