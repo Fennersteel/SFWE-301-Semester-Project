@@ -4,7 +4,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCombination;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
  
@@ -13,7 +12,7 @@ public class App extends Application {
      @Override
      public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource(".fxml/FXMLDocument.fxml"));
-        
+
         StackPane pane = new StackPane(root);
         Scene scene = new Scene(pane, 800, 500);
         
