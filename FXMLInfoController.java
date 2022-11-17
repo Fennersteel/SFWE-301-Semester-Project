@@ -17,7 +17,7 @@ public class FXMLInfoController implements Initializable {
     //lbl2,lbl3;
     
     @FXML
-    private Button ieeeBtn,HomeBtn;
+    private Button ieeeBtn,HomeBtn, majorBtn, minorBtn, mastersBtn, phdBtn;
     //,btn3,btn4;
     
     @FXML
@@ -30,6 +30,26 @@ public class FXMLInfoController implements Initializable {
             stage = (Stage) ieeeBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/IEEE.fxml"));
+        }
+        else if (event.getSource() == majorBtn){
+            stage = (Stage) majorBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/major.fxml"));
+        }
+        else if (event.getSource() == minorBtn){
+            stage = (Stage) minorBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/minor.fxml"));
+        }
+        else if (event.getSource() == mastersBtn){
+            stage = (Stage) mastersBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/masters.fxml"));
+        }
+        else if (event.getSource() == phdBtn){
+            stage = (Stage) phdBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/PhD.fxml"));
         }
         
         else {
