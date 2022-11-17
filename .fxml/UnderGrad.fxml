@@ -29,12 +29,12 @@
             <Font size="35.0" />
          </font>
       </Button>
-      <TextArea layoutX="269.0" layoutY="813.0" prefHeight="314.0" prefWidth="651.0" text="Software engineers build the technological infrastructure for our increasingly connected world. They are in high demand to solve complex engineering problems across industries and government, working in areas such as:&#10;-aerospace &#10;-space exploration&#10;-automation and connectivity&#10;-biomedical modeling and devices&#10;-data, computing and networking&#10;-human and intelligent systemsnatural&#10;-fabricated environments&#10;With an interdisciplinary curriculum that covers large-scale product development and incorporates intensive real-world design, the University of Arizona BS in software engineering prepares students for some of the most coveted technology jobs in the world." wrapText="true">
+      <TextArea layoutX="269.0" layoutY="813.0" prefHeight="314.0" prefWidth="651.0" style="-fx-background-color: transparent;" text="Software engineers build the technological infrastructure for our increasingly connected world. They are in high demand to solve complex engineering problems across industries and government, working in areas such as:&#10;-aerospace &#10;-space exploration&#10;-automation and connectivity&#10;-biomedical modeling and devices&#10;-data, computing and networking&#10;-human and intelligent systemsnatural&#10;-fabricated environments&#10;With an interdisciplinary curriculum that covers large-scale product development and incorporates intensive real-world design, the University of Arizona BS in software engineering prepares students for some of the most coveted technology jobs in the world." wrapText="true">
          <font>
             <Font size="15.0" />
          </font>
       </TextArea>
-      <TextField alignment="CENTER" layoutX="771.0" layoutY="198.0" prefHeight="44.0" prefWidth="344.0" text="Undergraduate Advisor">
+      <TextField alignment="CENTER" layoutX="771.0" layoutY="198.0" prefHeight="44.0" prefWidth="344.0" style="-fx-background-color: transparent;" text="Undergraduate Advisor">
          <font>
             <Font size="25.0" />
          </font>
@@ -44,32 +44,32 @@
             <Image url="@../../../../OneDrive%20-%20University%20of%20Arizona/Pictures/Java%20Project/Advisor.PNG" />
          </image>
       </ImageView>
-      <TextArea layoutX="772.0" layoutY="606.0" prefHeight="135.0" prefWidth="344.0" text="Juliana Lincoln&#10;julianalincoln@email.arizona.edu&#10;(520)621-6725&#10;ENGR 225" wrapText="true">
+      <TextArea layoutX="772.0" layoutY="606.0" prefHeight="135.0" prefWidth="344.0" style="-fx-background-color: transparent;" text="Juliana Lincoln&#10;julianalincoln@email.arizona.edu&#10;(520)621-6725&#10;ENGR 225" wrapText="true">
          <font>
             <Font size="20.0" />
          </font>
       </TextArea>
-      <TextField alignment="CENTER" layoutX="1472.0" layoutY="212.0" text="Available Classes">
+      <TextField alignment="CENTER" layoutX="1472.0" layoutY="212.0" style="-fx-background-color: transparent;" text="Available Classes">
          <font>
             <Font size="25.0" />
          </font>
       </TextField>
-      <TextArea layoutX="1357.0" layoutY="290.0" prefHeight="334.0" prefWidth="536.0" text="SFWE 101: Introduction to Software Engineering&#10;SFWE 201: Software Engineering Sophomore Colloquium&#10;SFWE 301: Software Requirements Analysis and Test &#10;SFWE 302: Software Design Process&#10;SFWE 401: Software Assurance and Security&#10;&#10;Coming Soon&#10;SFWE 402: Software DevOps&#10;SFWE 403: Software Project Management&#10;SFWE 404 Software Preceptor">
+      <TextArea layoutX="1357.0" layoutY="290.0" prefHeight="334.0" prefWidth="536.0" style="-fx-background-color: transparent;" text="SFWE 101: Introduction to Software Engineering&#10;SFWE 201: Software Engineering Sophomore Colloquium&#10;SFWE 301: Software Requirements Analysis and Test &#10;SFWE 302: Software Design Process&#10;SFWE 401: Software Assurance and Security&#10;&#10;Coming Soon&#10;SFWE 402: Software DevOps&#10;SFWE 403: Software Project Management&#10;SFWE 404 Software Preceptor">
          <font>
             <Font size="20.0" />
          </font>
       </TextArea>
-      <TextField alignment="CENTER" layoutX="176.0" layoutY="226.0" text="SFWE Faculty">
+      <TextField alignment="CENTER" layoutX="176.0" layoutY="226.0" style="-fx-background-color: transparent;" text="SFWE Faculty">
          <font>
             <Font size="25.0" />
          </font>
       </TextField>
-      <TextArea layoutX="161.0" layoutY="299.0" prefHeight="200.0" prefWidth="394.0" text="Sharon O'Neal: DIrector, Professor&#10;Diana Saldana: Professor, Yuma Campus">
+      <TextArea layoutX="161.0" layoutY="299.0" prefHeight="200.0" prefWidth="394.0" style="-fx-background-color: transparent;" text="Sharon O'Neal: DIrector, Professor&#10;Diana Saldana: Professor, Yuma Campus">
          <font>
             <Font size="20.0" />
          </font>
       </TextArea>
-      <TextField alignment="CENTER" layoutX="968.0" layoutY="777.0" text="How to Declare">
+      <TextField alignment="CENTER" layoutX="968.0" layoutY="777.0" style="-fx-background-color: transparent;" text="How to Declare">
          <font>
             <Font size="25.0" />
          </font>
