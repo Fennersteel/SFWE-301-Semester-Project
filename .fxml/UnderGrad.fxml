@@ -11,7 +11,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
    <children>
-      <Button fx:id="HomeBtn" layoutY="877.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Home">
+      <Button fx:id="HomeBtn" layoutY="877.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
          <font>
             <Font size="35.0" />
          </font></Button>
@@ -19,12 +19,12 @@
          <font>
             <Font size="64.0" />
          </font></Label>
-      <Button fx:id="majorBtn" layoutX="1397.0" layoutY="877.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Major">
+      <Button fx:id="majorBtn" layoutX="1397.0" layoutY="877.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Major">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="minorBtn" layoutX="1673.0" layoutY="877.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Minor">
+      <Button fx:id="minorBtn" layoutX="1673.0" layoutY="877.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Minor">
          <font>
             <Font size="35.0" />
          </font>
@@ -41,7 +41,7 @@
       </TextField>
       <ImageView fitHeight="356.0" fitWidth="345.0" layoutX="774.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="Pictures/Advisor.PNG" />
+            <Image url="@../../../../OneDrive%20-%20University%20of%20Arizona/Pictures/Java%20Project/Advisor.PNG" />
          </image>
       </ImageView>
       <TextArea layoutX="772.0" layoutY="606.0" prefHeight="135.0" prefWidth="344.0" text="Juliana Lincoln&#10;julianalincoln@email.arizona.edu&#10;(520)621-6725&#10;ENGR 225" wrapText="true">
