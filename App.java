@@ -14,7 +14,6 @@ public class App extends Application {
      public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource(".fxml/FXMLDocument.fxml"));
         
-        GridPane grid= new GridPane();
         StackPane pane = new StackPane(root);
         Scene scene = new Scene(pane, 800, 500);
         
