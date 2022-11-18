@@ -26,7 +26,7 @@
       </Button>
       <ImageView fitHeight="796.0" fitWidth="1418.0" layoutX="310.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/IEEE%20Info.jpg" />
+            <Image url="/Pictures/IEEEInfo.jpg" />
          </image>
       </ImageView>
    </children>
