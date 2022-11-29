@@ -8,7 +8,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
    <children>
-      <Button fx:id="HomeBtn" layoutY="838.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      <Button fx:id="HomeBtn" layoutY="840.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
          <font>
             <Font size="35.0" />
          </font></Button>
@@ -16,17 +16,17 @@
          <font>
             <Font size="64.0" />
          </font></Label>
-      <Button fx:id="mastersBtn" layoutX="1430.0" layoutY="838.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Masters">
+      <Button fx:id="mastersBtn" layoutX="1430.0" layoutY="840.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Masters">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="phdBtn" layoutX="1681.0" layoutY="838.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="PhD">
+      <Button fx:id="phdBtn" layoutX="1680.0" layoutY="840.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="PhD">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <TextField layoutX="679.0" layoutY="404.0" text="Programs Coming Soon!">
+      <TextField layoutX="679.0" layoutY="404.0" style="-fx-background-color: transparent;" text="Programs Coming Soon!">
          <font>
             <Font size="50.0" />
          </font>
