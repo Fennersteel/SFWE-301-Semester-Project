@@ -14,7 +14,7 @@ public class App extends Application {
         Parent root = FXMLLoader.load(getClass().getResource(".fxml/FXMLDocument.fxml"));
 
         StackPane pane = new StackPane(root);
-        Scene scene = new Scene(pane, 800, 500);
+        Scene scene = new Scene(pane, 1920, 1080);
         
         stage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
         stage.setFullScreenExitHint(STYLESHEET_CASPIAN);

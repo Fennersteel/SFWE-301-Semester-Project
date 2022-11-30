@@ -17,7 +17,7 @@ public class FXMLInfoController implements Initializable {
     //lbl2,lbl3;
     
     @FXML
-    private Button ieeeBtn,HomeBtn, majorBtn, minorBtn, mastersBtn, phdBtn;
+    private Button discordBtn,onetBtn,statsBtn,handshakeBtn,advisingBtn,thinkTankBtn,saltCenterBtn,drcBtn,scholarshipBtn,informsBtn,ieeeBtn,HomeBtn, majorBtn, minorBtn, mastersBtn, phdBtn,iiseBtn,sewBtn,eaBtn;
     //,btn3,btn4;
     
     @FXML
@@ -51,7 +51,71 @@ public class FXMLInfoController implements Initializable {
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/PhD.fxml"));
         }
-        
+        else if (event.getSource() == iiseBtn){
+            stage = (Stage) iiseBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/IISE.fxml"));
+        }
+        else if (event.getSource() == sewBtn){
+            stage = (Stage) sewBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/SEWC.fxml"));
+        }
+        else if (event.getSource() == eaBtn){
+            stage = (Stage) eaBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/ENGRAmbassadors.fxml"));
+        }
+        else if (event.getSource() == informsBtn){
+            stage = (Stage) informsBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/Informs.fxml"));
+        }
+        else if (event.getSource() == thinkTankBtn){
+            stage = (Stage) thinkTankBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/THINKTANK.fxml"));
+        }
+        else if (event.getSource() == saltCenterBtn){
+            stage = (Stage) saltCenterBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/salt.fxml"));
+        }
+        else if (event.getSource() == drcBtn){
+            stage = (Stage) drcBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/DRC.fxml"));
+        }
+        else if (event.getSource() == scholarshipBtn){
+            stage = (Stage) scholarshipBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/Scholarships.fxml"));
+        }
+        else if (event.getSource() == advisingBtn){
+            stage = (Stage) advisingBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/advising.fxml"));
+        }
+        else if (event.getSource() == discordBtn){
+            stage = (Stage) discordBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/Discord.fxml"));
+        }
+        else if (event.getSource() == onetBtn){
+            stage = (Stage) onetBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/ONet.fxml"));
+        }
+        else if (event.getSource() == statsBtn){
+            stage = (Stage) statsBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/stats.fxml"));
+        }
+        else if (event.getSource() == handshakeBtn){
+            stage = (Stage) handshakeBtn.getScene().getWindow();
+            stage.setFullScreen(true);
+            root = FXMLLoader.load(getClass().getResource(".fxml/Handshake.fxml"));
+        }
         else {
             stage = (Stage) HomeBtn.getScene().getWindow();
             stage.setFullScreen(true);

@@ -17,7 +17,7 @@ public class pagecontroller implements Initializable {
     //lbl2,lbl3;
     
     @FXML
-    private Button HomeBtn, advisingBackBtn, discordBackBtn, drcBackBtn, engrambBackBtn, handshakeBackBtn, ieeeBackBtn, iiseBackBtn, informsBackBtn, majorBackBtn, minorBackBtn, mastersBackBtn, onetBackBtn, phdBackBtn, saltBackBtn, scholarshipsBackBtn, sewcBackBtn, statsBackBtn, thinktankBackBtn;
+    private Button HomeBtn, advisingBackBtn, discordBackBtn, drcBackBtn, engrambBackBtn, handshakeBackBtn, ieeeBackBtn, iiseBackBtn, informsBackBtn, majorBackBtn, minorBackBtn, mastersBackBtn, onetBackBtn, phdBackBtn, saltBackBtn, scholarshipBackBtn, sewcBackBtn, statsBackBtn, thinktankBackBtn;
     //,btn3,btn4;
     
     @FXML
@@ -87,8 +87,8 @@ public class pagecontroller implements Initializable {
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/Academics.fxml"));
         }
-        else if (event.getSource() == scholarshipsBackBtn){
-            stage = (Stage) scholarshipsBackBtn.getScene().getWindow();
+        else if (event.getSource() == scholarshipBackBtn){
+            stage = (Stage) scholarshipBackBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/Academics.fxml"));
         }
