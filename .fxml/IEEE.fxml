@@ -14,19 +14,19 @@
             <Font size="72.0" />
          </font>
       </Label>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" text="Home">
+      <Button fx:id="HomeBtn" layoutY="930.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="150.0" prefWidth="150.0" text="Home">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="ieeeBackBtn" layoutX="1670.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" text="Back">
+      <Button fx:id="ieeeBackBtn" layoutX="1770.0" layoutY="930.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="150.0" prefWidth="150.0" text="Back">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
       <ImageView fitHeight="796.0" fitWidth="1418.0" layoutX="310.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="/Pictures/IEEEInfo.jpg" />
+            <Image url="@../Pictures/IEEEInfo.jpg" />
          </image>
       </ImageView>
    </children>

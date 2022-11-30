@@ -7,15 +7,35 @@
 
 <AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
    <children>
-      <Button fx:id="HomeBtn" layoutX="-20.0" layoutY="836.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Home">
+      <Button fx:id="HomeBtn" layoutY="943.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="150.0" prefWidth="150.0" text="Home">
          <font>
             <Font size="35.0" />
          </font></Button>
-      <Label layoutX="754.0" layoutY="58.0" prefHeight="93.0" prefWidth="519.0" text="Clubs Information">
+      <Label layoutX="754.0" layoutY="58.0" prefHeight="93.0" prefWidth="519.0" text="Club Information">
          <font>
             <Font size="64.0" />
          </font></Label>
-      <Button fx:id="ieeeBtn" layoutX="195.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="IEEE">
+      <Button fx:id="ieeeBtn" layoutX="350.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="IEEE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="iiseBtn" layoutX="850.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="IISE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="sewBtn" layoutX="1350.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="SEWC">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="eaBtn" layoutX="600.0" layoutY="601.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="EA">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="informsBtn" layoutX="1100.0" layoutY="601.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Informs">
          <font>
             <Font size="35.0" />
          </font>

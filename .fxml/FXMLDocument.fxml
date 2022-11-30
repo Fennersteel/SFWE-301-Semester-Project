@@ -11,12 +11,12 @@
    <children>
       <ImageView>
          <image>
-            <Image url="/Pictures/HomePage.jpg" />
+            <Image url="@../Pictures/HomePage.jpg" />
          </image>
       </ImageView>
       <Button fx:id="ClubBtn" layoutX="218.0" layoutY="265.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Clubs" textFill="WHITE">
          <font>
-            <Font size="48.0" />
+            <Font name="Javanese Text" size="48.0" />
          </font></Button>
       <Label layoutX="471.0" layoutY="39.0" prefHeight="105.0" prefWidth="987.0" text="Software Engineering Program" textFill="WHITE">
          <font>
@@ -24,26 +24,26 @@
          </font></Label>
       <Button fx:id="CareersBtn" layoutX="1014.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Careers" textFill="WHITE">
          <font>
-            <Font size="48.0" />
+            <Font name="Javanese Text" size="48.0" />
          </font></Button>
       <Button fx:id="AcademicsBtn" layoutX="603.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="298.0" style="-fx-background-color: transparent;" text="Academics" textFill="WHITE">
          <font>
-            <Font size="48.0" />
+            <Font name="Javanese Text" size="48.0" />
          </font>
       </Button>
       <Button fx:id="WebsiteBtn" layoutX="1416.0" layoutY="264.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Website " textFill="WHITE" AnchorPane.rightAnchor="254.0">
          <font>
-            <Font size="48.0" />
+            <Font name="Javanese Text" size="48.0" />
          </font>
       </Button>
       <Button fx:id="UnderGradBtn" layoutX="219.0" layoutY="678.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="637.0" style="-fx-background-color: transparent;" text="Undergraduate Program" textFill="WHITE">
          <font>
-            <Font size="48.0" />
+            <Font name="Javanese Text" size="48.0" />
          </font>
       </Button>
       <Button fx:id="GraduateBtn" layoutX="1020.0" layoutY="685.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="645.0" style="-fx-background-color: transparent;" text="Graduate Program" textFill="WHITE">
          <font>
-            <Font size="48.0" />
+            <Font name="Javanese Text" size="48.0" />
          </font>
       </Button>
    </children>

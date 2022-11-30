@@ -15,5 +15,25 @@
          <font>
             <Font size="64.0" />
          </font></Label>
+         <Button fx:id="discordBtn" layoutX="200.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Discord">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="onetBtn" layoutX="600.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="oNet">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="statsBtn" layoutX="1000.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Stats">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="handshakeBtn" layoutX="1400.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Handshake">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

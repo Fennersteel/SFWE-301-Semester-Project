@@ -2,25 +2,48 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FMXLInforController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
    <children>
       <Label alignment="CENTER" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Engineering Ambassadors">
          <font>
             <Font size="72.0" />
          </font>
       </Label>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="250.0" prefWidth="250.0" text="Home">
+      <Button fx:id="HomeBtn" layoutY="930.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="150.0" prefWidth="150.0" text="Home">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="engrambBackBtn" layoutX="1670.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" text="Back">
+      <Button fx:id="engrambBackBtn" layoutX="1770.0" layoutY="930.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="150.0" prefWidth="150.0" text="Back">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
+      <ImageView fitHeight="423.0" fitWidth="423.0" layoutX="744.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/ENGRAmbassadorsQR.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="669.0" layoutY="706.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="UA Engineering Ambassadors (EAs) represent all 16 majors, sharing information about the College and their passion for Engineering – all from a student’s perspective. &#10;&#10;EAs are among the best the College of Engineering has to offer. They are chosen based on their outstanding academic performance, involvement in research and internships, leadership experiences, and enthusiasm for engineering and education." textAlignment="JUSTIFY" wrappingWidth="565.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="97.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Responsibilities:&#10;-Represent the College at recruitment events such as information sessions, college fairs, and university visit programs&#10;-Perform tours of Engineering labs and spaces&#10;-Participate in student panels&#10;-Represent UA Engineering at industry and alumni functions" wrappingWidth="570.25390625">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="1247.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Ambassadors Application Process:&#10;The Engineering Ambassador application for the 2022 – 2023 academic year is now closed. Questions about the process? Reach out to engr-ambassadors@arizona.edu. &#10;Requirements:&#10;Maintain a minimum GPA of 2.75&#10;Have completed at least one semester at UA in the College of Engineering&#10;Commit to serving two full academic years (Transfer students only need to commit to three semesters)&#10;Identify a University of Arizona staff or faculty member to complete a reference form on your behalf (more details on application)&#10; &#10;Contacts&#10;Please contact the Academic Affairs Office for further information, or reach out to engr-ambassadors@arizona.edu&#10;" wrappingWidth="638.541015625">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

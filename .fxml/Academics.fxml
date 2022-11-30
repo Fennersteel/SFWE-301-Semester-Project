@@ -11,9 +11,34 @@
          <font>
             <Font size="35.0" />
          </font></Button>
-      <Label layoutX="616.0" layoutY="44.0" prefHeight="93.0" prefWidth="685.0" text="Academic Information">
+      <Label layoutX="650.0" layoutY="44.0" prefHeight="93.0" prefWidth="685.0" text="Academic Information">
          <font>
             <Font size="64.0" />
          </font></Label>
+      <Button fx:id="thinkTankBtn" layoutX="350.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="THINK TANK">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="saltCenterBtn" layoutX="850.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="SALT Center">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="drcBtn" layoutX="1350.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="DRC">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="scholarshipBtn" layoutX="600.0" layoutY="600.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Scholarship and &#10;Financial Aid office">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="advisingBtn" layoutX="1100.0" layoutY="600.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" text="Advising">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
