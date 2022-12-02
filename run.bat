@@ -1,0 +1,1 @@
+java -p lib --add-modules javafx.controls,javafx.fxml -jar app.jar
