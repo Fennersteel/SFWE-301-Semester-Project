@@ -2,10 +2,13 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FMXLInfoController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
    <children>
       <Label alignment="CENTER" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Software Engineering Major">
          <font>
@@ -22,5 +25,30 @@
             <Font size="35.0" />
          </font>
       </Button>
+      <ImageView fitHeight="650.0" fitWidth="600.0" layoutX="300.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/4yearplan1.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="650.0" fitWidth="600.0" layoutX="1120.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/4yearplan2.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="350.0" fitWidth="275.0" layoutX="825.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/4yearplanQR.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="189.0" layoutX="860.0" layoutY="873.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/degreeinfo.PNG" />
+         </image>
+      </ImageView>
+      <TextField alignment="CENTER" layoutX="797.0" layoutY="808.0" style="-fx-background-color: transparent;" text="Degree Summary">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
    </children>
 </AnchorPane>

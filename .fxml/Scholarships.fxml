@@ -15,12 +15,12 @@
             <Font size="72.0" />
          </font>
       </Label>
-      <Button fx:id="HomeBtn" layoutY="930.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="150.0" prefWidth="150.0" text="Home">
+      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" text="Home">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="scholarshipBackBtn" layoutX="1770.0" layoutY="930.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="150.0" prefWidth="150.0" text="Back">
+      <Button fx:id="scholarshipBackBtn" layoutX="1670.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" text="Back">
          <font>
             <Font size="35.0" />
          </font>

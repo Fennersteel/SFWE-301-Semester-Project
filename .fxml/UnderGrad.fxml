@@ -11,7 +11,7 @@
 
 <AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
    <children>
-      <Button fx:id="HomeBtn" layoutY="860.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
          <font>
             <Font size="35.0" />
          </font></Button>
@@ -19,12 +19,12 @@
          <font>
             <Font size="64.0" />
          </font></Label>
-      <Button fx:id="majorBtn" layoutX="1400.0" layoutY="860.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Major">
+      <Button fx:id="majorBtn" layoutX="1400.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Major">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="minorBtn" layoutX="1668.0" layoutY="860.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Minor">
+      <Button fx:id="minorBtn" layoutX="1668.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Minor">
          <font>
             <Font size="35.0" />
          </font>
@@ -64,7 +64,7 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <Text layoutX="247.0" layoutY="856.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software engineers build the technological infrastructure for our increasingly connected world. They are in high demand to solve complex engineering problems across industries and government, working in areas such as:&#10;-aerospace &#10;-space exploration&#10;-automation and connectivity&#10;-biomedical modeling and devices&#10;-data, computing and networking&#10;-human and intelligent systemsnatural&#10;-fabricated environments&#10;With an interdisciplinary curriculum that covers large-scale product development and incorporates intensive real-world design, the University of Arizona BS in software engineering prepares students for some of the most coveted technology jobs in the world." wrappingWidth="704.2630004882812">
+      <Text layoutX="260.0" layoutY="830.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software engineers build the technological infrastructure for our increasingly connected world. They are in high demand to solve complex engineering problems across industries and government, working in areas such as:&#10;-aerospace &#10;-space exploration&#10;-automation and connectivity&#10;-biomedical modeling and devices&#10;-data, computing and networking&#10;-human and intelligent systemsnatural&#10;-fabricated environments&#10;With an interdisciplinary curriculum that covers large-scale product development and incorporates intensive real-world design, the University of Arizona BS in software engineering prepares students for some of the most coveted technology jobs in the world." wrappingWidth="704.2630004882812">
          <font>
             <Font size="15.0" />
          </font>
@@ -74,5 +74,10 @@
             <Font size="24.0" />
          </font>
       </Text>
+      <ImageView fitHeight="268.0" fitWidth="286.0" layoutX="1035.0" layoutY="825.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/majordeclaration.PNG" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
