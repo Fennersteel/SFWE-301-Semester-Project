@@ -1,1 +1,1 @@
-java -p lib_win --add-modules javafx.controls,javafx.fxml -jar app.jar
+java -p "" --add-modules javafx.controls,javafx.fxml -jar app.jar
