@@ -46,5 +46,10 @@
             <Font name="Javanese Text" size="48.0" />
          </font>
       </Button>
+      <Label layoutX="611.0" layoutY="993.0" style="-fx-background-color: transparent;" text="Warning! This program could be harmful to photosensitive users. Use at your own risk" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
