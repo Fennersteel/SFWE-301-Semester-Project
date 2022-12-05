@@ -26,7 +26,7 @@ public class FXMLDocumentController implements Initializable {
         Stage stage;
         
         Parent root;
-       
+        
         if(event.getSource()==ClubBtn){
             //stage.setFullScreen(true);
             stage = (Stage) ClubBtn.getScene().getWindow();
@@ -47,16 +47,22 @@ public class FXMLDocumentController implements Initializable {
             stage = (Stage) WebsiteBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/Website.fxml"));
+            ++App.sweWebsiteCnt;
+            System.out.println("Software Engineering website visits: " + App.sweWebsiteCnt);
         }
         else if (event.getSource() == UnderGradBtn){
             stage = (Stage) UnderGradBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/UnderGrad.fxml"));
+            ++App.underGradCnt;
+            System.out.println("Undergraduate Information visits: " + App.underGradCnt);
         }
         else if (event.getSource() == GraduateBtn){
             stage = (Stage) GraduateBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/GraduateProgram.fxml"));
+            ++App.graduateCnt;
+            System.out.println("Graduate Information visits: " + App.graduateCnt);
         }
         else {
             stage = (Stage) HomeBtn.getScene().getWindow();

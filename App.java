@@ -9,7 +9,11 @@ import javafx.stage.Stage;
  
 public class App extends Application {
      
-     @Override
+     
+   public static int discordCnt,onetCnt,statsCnt,handshakeCnt,advisingCnt,thinkTankCnt,saltCenterCnt,drcCnt,scholarshipCnt,informsCnt,ieeeCnt,HomeCnt, majorCnt, minorCnt, mastersCnt, phdCnt,iiseCnt,sewCnt,eaCnt = 0;
+   public static int underGradCnt,graduateCnt,sweWebsiteCnt = 0;
+
+   @Override
      public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource(".fxml/FXMLDocument.fxml"));
 
@@ -24,5 +28,6 @@ public class App extends Application {
  
      public static void main(String[] args) {
         launch(args);
+        
      }    
  }
