@@ -5,39 +5,39 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
+<AnchorPane id="AnchorPane" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
    <children>
-      <Button fx:id="HomeBtn" layoutX="-20.0" layoutY="836.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      <Button fx:id="HomeBtn" layoutY="1800.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Home">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font></Button>
-      <Label layoutX="650.0" layoutY="44.0" prefHeight="93.0" prefWidth="685.0" text="Academic Information">
+      <Label layoutX="1200.0" layoutY="44.0" prefHeight="219.0" prefWidth="1486.0" text="Academic Information">
          <font>
-            <Font size="64.0" />
+            <Font size="150.0" />
          </font></Label>
-      <Button fx:id="thinkTankBtn" layoutX="350.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="THINK TANK">
+      <Button fx:id="thinkTankBtn" layoutX="500.0" layoutY="604.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="508.0" style="-fx-background-color: transparent;" text="THINK TANK">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="saltCenterBtn" layoutX="850.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="SALT Center">
+      <Button fx:id="saltCenterBtn" layoutX="1600.0" layoutY="604.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="570.0" style="-fx-background-color: transparent;" text="SALT Center">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="drcBtn" layoutX="1350.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="DRC">
+      <Button fx:id="drcBtn" layoutX="2850.0" layoutY="604.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="DRC">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="scholarshipBtn" layoutX="600.0" layoutY="600.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Scholarship and &#10;Financial Aid office">
+      <Button fx:id="scholarshipBtn" layoutX="950.0" layoutY="1126.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="712.0" style="-fx-background-color: transparent;" text="Scholarship and &#10;Financial Aid office">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="advisingBtn" layoutX="1100.0" layoutY="600.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Advising">
+      <Button fx:id="advisingBtn" layoutX="2300.0" layoutY="1126.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Advising">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </Button>
    </children>

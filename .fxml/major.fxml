@@ -8,46 +8,46 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
    <children>
-      <Label alignment="CENTER" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Software Engineering Major">
+      <Label alignment="CENTER" layoutX="1000.0" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Software Engineering Major">
+         <font>
+            <Font size="150.0" />
+         </font>
+      </Label>
+      <Button fx:id="HomeBtn" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Home">
          <font>
             <Font size="72.0" />
          </font>
-      </Label>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      </Button>
+      <Button fx:id="majorBackBtn" layoutX="3440.0" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Back">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="majorBackBtn" layoutX="1670.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Back">
-         <font>
-            <Font size="35.0" />
-         </font>
-      </Button>
-      <ImageView fitHeight="650.0" fitWidth="600.0" layoutX="300.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="1604.0" fitWidth="1239.0" layoutX="268.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/4yearplan1.PNG" />
          </image>
       </ImageView>
-      <ImageView fitHeight="650.0" fitWidth="600.0" layoutX="1120.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="1604.0" fitWidth="1264.0" layoutX="2456.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/4yearplan2.PNG" />
          </image>
       </ImageView>
-      <ImageView fitHeight="350.0" fitWidth="275.0" layoutX="825.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="1596.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/4yearplanQR.PNG" />
          </image>
       </ImageView>
-      <ImageView fitHeight="182.0" fitWidth="189.0" layoutX="860.0" layoutY="873.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="1584.0" layoutY="1371.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/degreeinfo.PNG" />
          </image>
       </ImageView>
-      <TextField alignment="CENTER" layoutX="797.0" layoutY="808.0" style="-fx-background-color: transparent;" text="Degree Summary">
+      <TextField alignment="CENTER" layoutX="1545.0" layoutY="1167.0" style="-fx-background-color: transparent;" text="Degree Summary">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </TextField>
    </children>

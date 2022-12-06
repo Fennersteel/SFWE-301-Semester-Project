@@ -8,29 +8,29 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
    <children>
-      <Label alignment="CENTER" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Advising Schedule">
+      <Label alignment="CENTER" layoutX="1000.0" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Advising Schedule">
+         <font>
+            <Font size="150.0" />
+         </font>
+      </Label>
+      <Button fx:id="HomeBtn" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Home">
          <font>
             <Font size="72.0" />
          </font>
-      </Label>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      </Button>
+      <Button fx:id="advisingBackBtn" layoutX="3440.0" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Back">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="advisingBackBtn" layoutX="1670.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Back">
+      <Text layoutX="1334.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Advising:&#10;&#10;Software Engineering; University of Arizona - Main&#10;&#10;Juliana Lincoln&#10;&#10;julianalincoln@email.arizona.edu&#10;&#10;(520)621-6725&#10;&#10;ENGR 225&#10;&#10;Picture:&#10;" wrappingWidth="1624.0">
          <font>
-            <Font size="35.0" />
-         </font>
-      </Button>
-      <Text layoutX="658.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Advising:&#10;&#10;Software Engineering; University of Arizona - Main&#10;&#10;Juliana Lincoln&#10;&#10;julianalincoln@email.arizona.edu&#10;&#10;(520)621-6725&#10;&#10;ENGR 225&#10;&#10;Picture:&#10;" wrappingWidth="600.0">
-         <font>
-            <Font size="24.0" />
+            <Font size="64.0" />
          </font>
       </Text>
-      <ImageView fitHeight="420.0" fitWidth="420.0" layoutX="706.0" layoutY="594.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="1338.0" layoutY="1379.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/Advisor.PNG" />
          </image>

@@ -8,31 +8,31 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
    <children>
-      <Label alignment="CENTER" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Scholarships and Financial Aid">
+      <Label alignment="CENTER" layoutX="1000.0" layoutY="10.0" prefHeight="219.0" prefWidth="2056.0" text="Scholarships and Financial Aid">
+         <font>
+            <Font size="150.0" />
+         </font>
+      </Label>
+      <Button fx:id="HomeBtn" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Home">
          <font>
             <Font size="72.0" />
          </font>
-      </Label>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      </Button>
+      <Button fx:id="scholarshipBackBtn" layoutX="3440.0" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Back">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="scholarshipBackBtn" layoutX="1670.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Back">
-         <font>
-            <Font size="35.0" />
-         </font>
-      </Button>
-      <ImageView fitHeight="420.0" fitWidth="420.0" layoutX="748.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="1612.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/ScholarshipQRCode.jpg" />
          </image>
       </ImageView>
-      <Text layoutX="659.0" layoutY="641.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your education is one of the smartest investments you will make in your lifetime, and your University of Arizona degree will pay you back many times over. We do our best to make paying for college easy. And when it comes to navigating financial wellness, we’re always here to help.&#10;" wrappingWidth="620.13671875">
+      <Text layoutX="931.0" layoutY="1159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your education is one of the smartest investments you will make in your lifetime, and your University of Arizona degree will pay you back many times over. We do our best to make paying for college easy. And when it comes to navigating financial wellness, we’re always here to help.&#10;" wrappingWidth="2212.13671875">
          <font>
-            <Font size="24.0" />
+            <Font size="72.0" />
          </font>
       </Text>
    </children>

@@ -7,17 +7,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
+<AnchorPane id="AnchorPane" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
    <children>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      <Button fx:id="HomeBtn" layoutY="1800.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Home">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font></Button>
-      <Label alignment="CENTER" layoutX="657.0" layoutY="38.0" prefHeight="93.0" prefWidth="597.0" text="Software Website">
+      <Label alignment="CENTER" layoutX="1265.0" layoutY="54.0" prefHeight="219.0" prefWidth="1253.0" text="Software Website">
          <font>
-            <Font size="64.0" />
+            <Font size="150.0" />
          </font></Label>
-      <ImageView fitHeight="573.0" fitWidth="799.0" layoutX="684.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="1496.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/SFWEUnderGradQR.PNG" />
          </image>

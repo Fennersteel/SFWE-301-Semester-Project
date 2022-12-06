@@ -6,26 +6,26 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pagecontroller">
    <children>
-      <Label alignment="CENTER" layoutY="10.0" prefHeight="50.0" prefWidth="1920.0" text="Software Engineering Masters Program">
+      <Label alignment="CENTER" layoutX="600.0" layoutY="10.0" prefHeight="219.0" prefWidth="2668.0" text="Software Engineering Masters Program">
+         <font>
+            <Font size="150.0" />
+         </font>
+      </Label>
+      <Button fx:id="HomeBtn" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Home">
          <font>
             <Font size="72.0" />
          </font>
-      </Label>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      </Button>
+      <Button fx:id="mastersBackBtn" layoutX="3440.0" layoutY="1800.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Back">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="mastersBackBtn" layoutX="1670.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Back">
+      <TextField alignment="CENTER" layoutX="1516.0" layoutY="318.0" style="-fx-background-color: transparent;" text="Programs Coming Soon!">
          <font>
-            <Font size="35.0" />
-         </font>
-      </Button>
-      <TextField alignment="CENTER" layoutX="640.0" layoutY="360.0" style="-fx-background-color: transparent;" text="Programs Coming Soon!">
-         <font>
-            <Font size="50.0" />
+            <Font size="72.0" />
          </font>
       </TextField>
    </children>

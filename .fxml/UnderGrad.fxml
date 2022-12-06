@@ -9,72 +9,72 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
+<AnchorPane id="AnchorPane" prefHeight="2160.0" prefWidth="3840.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInfoController">
    <children>
-      <Button fx:id="HomeBtn" layoutY="830.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Home">
+      <Button fx:id="HomeBtn" layoutY="1800.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Home">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font></Button>
-      <Label alignment="CENTER" layoutX="214.0" layoutY="36.0" prefHeight="93.0" prefWidth="1576.0" text="Undergraduate Program Information">
+      <Label alignment="CENTER" layoutX="740.0" layoutY="16.0" prefHeight="219.0" prefWidth="2488.0" text="Undergraduate Program Information">
          <font>
-            <Font size="64.0" />
+            <Font size="150.0" />
          </font></Label>
-      <Button fx:id="majorBtn" layoutX="1400.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Major">
+      <Button fx:id="majorBtn" layoutX="3022.0" layoutY="1800.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Major">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <Button fx:id="minorBtn" layoutX="1668.0" layoutY="830.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: transparent;" text="Minor">
+      <Button fx:id="minorBtn" layoutX="3440.0" layoutY="1800.0" mnemonicParsing="false" onAction="#handleInfoBtnAction" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: transparent;" text="Minor">
          <font>
-            <Font size="35.0" />
+            <Font size="72.0" />
          </font>
       </Button>
-      <TextField alignment="CENTER" layoutX="771.0" layoutY="198.0" prefHeight="44.0" prefWidth="344.0" style="-fx-background-color: transparent;" text="Undergraduate Advisor">
+      <TextField alignment="CENTER" layoutX="1495.0" layoutY="341.0" prefHeight="153.0" prefWidth="848.0" style="-fx-background-color: transparent;" text="Undergraduate Advisor">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </TextField>
-      <ImageView fitHeight="356.0" fitWidth="345.0" layoutX="774.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="600.0" fitWidth="594.0" layoutX="1660.0" layoutY="463.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/Advisor.PNG" />
          </image>
       </ImageView>
-      <TextField alignment="CENTER" layoutX="1372.0" layoutY="210.0" style="-fx-background-color: transparent;" text="Available Classes">
+      <TextField alignment="CENTER" layoutX="2750.0" layoutY="341.0" style="-fx-background-color: transparent;" text="Available Classes">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="176.0" layoutY="226.0" style="-fx-background-color: transparent;" text="SFWE Faculty">
+      <TextField alignment="CENTER" layoutX="300.0" layoutY="341.0" style="-fx-background-color: transparent;" text="SFWE Faculty">
          <font>
-            <Font size="25.0" />
+            <Font size="72.0" />
          </font>
       </TextField>
-      <TextField alignment="CENTER" layoutX="1010.0" layoutY="774.0" style="-fx-background-color: transparent;" text="How to Declare">
+      <TextField alignment="CENTER" layoutX="2455.0" layoutY="1536.0" style="-fx-background-color: transparent;" text="How to Declare">
          <font>
-            <Font size="25.0" />
+            <Font size="54.0" />
          </font>
       </TextField>
-      <Text layoutX="172.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sharon O'Neal: DIrector, Professor&#10;Diana Saldana: Professor, Yuma Campus">
+      <Text layoutX="205.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sharon O'Neal: DIrector, Professor&#10;Diana Saldana: Professor, Yuma Campus">
          <font>
-            <Font size="24.0" />
+            <Font size="72.0" />
          </font>
       </Text>
-      <Text layoutX="1279.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SFWE 101: Introduction to Software Engineering&#10;SFWE 201: Software Engineering Sophomore Colloquium&#10;SFWE 301: Software Requirements Analysis and Test &#10;SFWE 302: Software Design Process&#10;SFWE 401: Software Assurance and Security&#10;&#10;Coming Soon&#10;SFWE 402: Software DevOps&#10;SFWE 403: Software Project Management&#10;SFWE 404 Software Preceptor">
+      <Text layoutX="2546.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SFWE 101: Introduction to Software Engineering&#10;SFWE 201: Software Engineering Sophomore Colloquium&#10;SFWE 301: Software Requirements Analysis and Test &#10;SFWE 302: Software Design Process&#10;SFWE 401: Software Assurance and Security&#10;&#10;Coming Soon&#10;SFWE 402: Software DevOps&#10;SFWE 403: Software Project Management&#10;SFWE 404 Software Preceptor">
          <font>
-            <Font size="24.0" />
+            <Font size="48.0" />
          </font>
       </Text>
-      <Text layoutX="260.0" layoutY="830.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software engineers build the technological infrastructure for our increasingly connected world. They are in high demand to solve complex engineering problems across industries and government, working in areas such as:&#10;-aerospace &#10;-space exploration&#10;-automation and connectivity&#10;-biomedical modeling and devices&#10;-data, computing and networking&#10;-human and intelligent systemsnatural&#10;-fabricated environments&#10;With an interdisciplinary curriculum that covers large-scale product development and incorporates intensive real-world design, the University of Arizona BS in software engineering prepares students for some of the most coveted technology jobs in the world." wrappingWidth="704.2630004882812">
+      <Text layoutX="468.0" layoutY="1568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Software engineers build the technological infrastructure for our increasingly connected world. They are in high demand to solve complex engineering problems across industries and government, working in areas such as:&#10;-aerospace &#10;-space exploration&#10;-automation and connectivity&#10;-biomedical modeling and devices&#10;-data, computing and networking&#10;-human and intelligent systemsnatural&#10;-fabricated environments&#10;With an interdisciplinary curriculum that covers large-scale product development and incorporates intensive real-world design, the University of Arizona BS in software engineering prepares students for some of the most coveted technology jobs in the world." wrappingWidth="2096.2630004882812">
          <font>
-            <Font size="15.0" />
+            <Font size="42.0" />
          </font>
       </Text>
-      <Text layoutX="772.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juliana Lincoln&#10;julianalincoln@email.arizona.edu&#10;(520)621-6725&#10;ENGR 225">
+      <Text layoutX="1475.0" layoutY="1129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Juliana Lincoln&#10;julianalincoln@email.arizona.edu&#10;(520)621-6725&#10;ENGR 225">
          <font>
-            <Font size="24.0" />
+            <Font size="72.0" />
          </font>
       </Text>
-      <ImageView fitHeight="268.0" fitWidth="286.0" layoutX="1035.0" layoutY="825.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="571.0" fitWidth="569.0" layoutX="2524.0" layoutY="1640.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Pictures/majordeclaration.PNG" />
          </image>
