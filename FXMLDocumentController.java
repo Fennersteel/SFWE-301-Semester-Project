@@ -15,33 +15,37 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private Label lbl1;
-    //lbl2,lbl3;
     
-    @FXML
+    @FXML//buttons used in scene
     private Button ClubBtn,CareersBtn,AcademicsBtn,HomeBtn,WebsiteBtn,UnderGradBtn,GraduateBtn,ieeeBtn;
-    //,btn3,btn4;
+    
     
     @FXML
     private void handleButtonAction (ActionEvent event) throws Exception {
         Stage stage;
         
         Parent root;
-        
+        //following if else, changes screens from home screen and tracks amount of visits to each page and prints to terminal
         if(event.getSource()==ClubBtn){
-            //stage.setFullScreen(true);
             stage = (Stage) ClubBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/Clubs.fxml"));
+            ++App.clubCnt;
+            System.out.println("Clubs page visits: " + App.clubCnt);
         }
         else if (event.getSource() == AcademicsBtn){
             stage = (Stage) AcademicsBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/Academics.fxml"));
+            ++App.academicsCnt;
+            System.out.println("Academics page visits: " + App.academicsCnt);
         }
         else if (event.getSource() == CareersBtn){
             stage = (Stage) CareersBtn.getScene().getWindow();
             stage.setFullScreen(true);
             root = FXMLLoader.load(getClass().getResource(".fxml/Careers.fxml"));
+            ++App.careerCnt;
+            System.out.println("Careers page visits: " + App.careerCnt);
         }
         else if (event.getSource() == WebsiteBtn){
             stage = (Stage) WebsiteBtn.getScene().getWindow();
@@ -78,7 +82,7 @@ public class FXMLDocumentController implements Initializable {
     }
    
     
-    
+    //needed to run
     public void initialize(URL url, ResourceBundle rb) {
         
     }       

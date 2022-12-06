@@ -9,16 +9,16 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-
+//this controller class is to change scenes from secondary scenes to tertiary scenes
 public class FXMLInfoController implements Initializable {
     
     @FXML
     private Label lbl1;
-    //lbl2,lbl3;
+    
     
     @FXML
     private Button discordBtn,onetBtn,statsBtn,handshakeBtn,advisingBtn,thinkTankBtn,saltCenterBtn,drcBtn,scholarshipBtn,informsBtn,ieeeBtn,HomeBtn, majorBtn, minorBtn, mastersBtn, phdBtn,iiseBtn,sewBtn,eaBtn;
-    //,btn3,btn4;
+    //buttons used in secondary scenes
     
     @FXML
     private void handleInfoBtnAction (ActionEvent event) throws Exception {
@@ -165,9 +165,9 @@ public class FXMLInfoController implements Initializable {
         stage.show();
         stage.setFullScreen(true);
     }
-    
+    //needed to run
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }       
 }

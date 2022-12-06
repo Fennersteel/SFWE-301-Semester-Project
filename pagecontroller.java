@@ -9,16 +9,15 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-
+//controlelr class for tertiary scenes to return to home page or secondary scenes
 public class pagecontroller implements Initializable {
     
     @FXML
     private Label lbl1;
-    //lbl2,lbl3;
     
     @FXML
     private Button HomeBtn, advisingBackBtn, discordBackBtn, drcBackBtn, engrambBackBtn, handshakeBackBtn, ieeeBackBtn, iiseBackBtn, informsBackBtn, majorBackBtn, minorBackBtn, mastersBackBtn, onetBackBtn, phdBackBtn, saltBackBtn, scholarshipBackBtn, sewcBackBtn, statsBackBtn, thinktankBackBtn;
-    //,btn3,btn4;
+    //buttons used in tertiary scenes
     
     @FXML
     private void handleBackButtonAction (ActionEvent event) throws Exception {
@@ -129,9 +128,9 @@ public class pagecontroller implements Initializable {
         stage.show();
         stage.setFullScreen(true);
     }
-    
+    //used for program to run
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        
     }       
 }
