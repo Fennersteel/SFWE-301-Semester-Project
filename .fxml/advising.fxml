@@ -25,14 +25,14 @@
             <Font size="72.0" />
          </font>
       </Button>
-      <Text layoutX="1334.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Advising:&#10;&#10;Software Engineering; University of Arizona - Main&#10;&#10;Juliana Lincoln&#10;&#10;julianalincoln@email.arizona.edu&#10;&#10;(520)621-6725&#10;&#10;ENGR 225&#10;&#10;Picture:&#10;" wrappingWidth="1624.0">
+      <Text layoutX="1300.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Advising:&#10;&#10;Software Engineering; University of Arizona - Main&#10;&#10;Juliana Lincoln&#10;&#10;julianalincoln@email.arizona.edu&#10;&#10;(520)621-6725&#10;&#10;ENGR 225&#10;&#10;Make an Appointment:&#10;" wrappingWidth="1624.0">
          <font>
             <Font size="64.0" />
          </font>
       </Text>
-      <ImageView fitHeight="800.0" fitWidth="800.0" layoutX="1338.0" layoutY="1379.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="756.0" fitWidth="1025.0" layoutX="1300.0" layoutY="1370.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/Advisor.PNG" />
+            <Image url="@../Pictures/trellis%20qr.png" />
          </image>
       </ImageView>
    </children>
